@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 @bedouin = Artist.create!(name: "Bedouin Soundclash")
-    @elongo = @bedouin.songs.create!(title: "Clock Work", length: 234, play_count: 20)
-    @salt = @bedouin.songs.create!(title: "Salt Water", length: 236, play_count: 25)
+@elongo = @bedouin.songs.create!(title: "Clock Work", length: 234, play_count: 20)
+@salt = @bedouin.songs.create!(title: "Salt Water", length: 236, play_count: 25)
